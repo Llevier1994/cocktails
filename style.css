@@ -1,0 +1,117 @@
+body {
+    background-color: wheat;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    /* margin: 0;
+    padding: 0; */
+  }
+  
+  header {
+    background-color: transparent;
+    color: chocolate;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px yellow;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+  }
+
+  h2{
+    text-align: center;
+    color: white;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  nav button {
+    background-color: yellowgreen;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  nav button:hover {
+    background-color: #555;
+  }
+  
+  #cocktail-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1200px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cocktail-li {
+    background-color: powderblue;
+    box-shadow: 0px 0px 10px yellow;
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cocktail-li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .cocktail-li h2 {
+    font-size: 1.5rem;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cocktail-li p {
+    font-size: 1.2rem;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .cocktail-li a {
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cocktail-li a:hover {
+    background-color: #555;
+  }
+  
+  .ingredient-li {
+    display: none;
+  }
+  
+  .ingredient-li.show {
+    display: block;
+  }
+  
+  #search-form button {
+    background-color: powderblue; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Add some padding */
+    cursor: pointer; /* Change the cursor to a pointer */
+    border: none;
+    
+  }
